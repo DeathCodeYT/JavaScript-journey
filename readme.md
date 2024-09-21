@@ -21,4 +21,4 @@ Welcome to the **JavaScript Journey** repository! This is the place where I'll b
 3. **Explore Files/Folders:** Each file/folder represents a different lesson or project. You can run and modify the code to experiment with what you’ve learned.
 
 ## Stay Connected 🌐
-Follow my YouTube channel, DeathCode, for step-by-step tutorials and explanations of each project.
+Follow my YouTube channel, [DeathCode](https://youtube.com/@deathcodeYT), for step-by-step tutorials and explanations of each project.
