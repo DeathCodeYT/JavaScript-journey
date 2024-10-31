@@ -16,5 +16,10 @@ username = username.trim()
 console.log(username.split(""))
 
 
+let a = 33,b=55,c=99;
+console.log("a is: "+a+" b is: "+b +" c is: "+c);
+console.log(`a is ${a}, b is ${b}, c is ${c}`)
+
+
 
 
