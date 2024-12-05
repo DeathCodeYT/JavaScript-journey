@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quote Generator</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      background-color: #1f1f1f;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      width: 100%;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #f39c12;
+    }
+
+    .quote {
+      font-size: 24px;
+      font-style: italic;
+      color: #e0e0e0;
+      margin-bottom: 30px;
+    }
+
+    .author {
+      font-size: 20px;
+      color: #f39c12;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+
+    .button:active {
+      background-color: #3e8e41;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Random Quote Generator</h1>
+    <div class="quote" id="quoteText">Loading quote...</div>
+    <div class="author" id="quoteAuthor">- Author</div>
+    <button class="button">Get New Quote</button>
+    <div class="footer">
+      <p>Random Quotes By DeathCode</p>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
