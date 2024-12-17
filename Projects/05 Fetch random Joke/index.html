@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .joke-container {
+            background-color: #1e1e1e;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .joke-text {
+            font-size: 20px;
+            font-weight: normal;
+            margin-bottom: 30px;
+            min-height: 80px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #444;
+        }
+
+        button:active {
+            background-color: #555;
+        }
+
+        button:disabled {
+            background-color: #777;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+<div class="joke-container">
+    <h1>Random Joke</h1>
+    <div class="joke-text" id="jokeText">Loading...</div>
+    <div class="button-container">
+        <button id="fetchJokeBtn">Get Another Joke</button>
+    </div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
